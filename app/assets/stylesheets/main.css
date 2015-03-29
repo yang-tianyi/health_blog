@@ -1,0 +1,24 @@
+body {
+	font-family: helvetica;
+	color: #777;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+}
+
+h1 {
+	color: #666;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px 0 5px;
+}
+
+a {
+	text-decoration: none;
+	color: royalblue;
+}
