@@ -1,0 +1,11 @@
+<h1><%= @post.title %></h1>
+
+<p>
+  <%= image_tag @post.img_url, width: '800px'%>
+</p>
+
+<p>
+  <%= @post.body %>
+</p>
+ 
+<%= link_to 'Back to Posts', posts_path %>

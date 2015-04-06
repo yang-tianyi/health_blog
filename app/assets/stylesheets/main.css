@@ -36,7 +36,11 @@ footer {
 	width: 500px;
 }
 
-h1 {
+h1, {
+	color: #666;
+}
+
+h2 a {
 	color: #666;
 }
 
@@ -76,6 +80,27 @@ aside img {
 a {
 	text-decoration: none;
 	color: royalblue;
+}
+
+label {
+	width: 60px;
+	display: inline-block;
+}
+
+input {
+	width: 200px
+}
+
+textarea {
+	min-width: 350px;
+	min-height: 200px;
+}
+
+input[type="submit"] {
+	width: 75px;
+	border-style: none;
+	background-color: #009900;
+	border-radius: 5px;
 }
 
 figure {

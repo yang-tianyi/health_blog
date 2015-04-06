@@ -1,0 +1,20 @@
+<% if (@posts.count != 0) %>
+   
+  <% @posts.each do |post| %>
+    <h2><%= link_to post.title, post_path(post) %></h2>
+    <figure>
+      <%= image_tag post.img_url, width: "800px" %>
+    </figure>
+    <p class="credits"><%= post.author %> <span class="float-right"><%= post.created_at%></span></p>
+    <p>
+      <%= post.body %>
+    </p>
+  <% end %>
+
+<% else %>
+
+  <h1>There are no posts yet. You can create one and view it here.</h1>
+
+<% end %>
+
+<%= link_to 'New post', new_post_path %>

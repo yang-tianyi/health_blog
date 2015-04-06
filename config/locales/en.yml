@@ -3,7 +3,8 @@ en:
     application:
       home_link: "Home"
       about_link: "About"
-      blog_link: "Blog"
+      static_blog_link: "Static Blog"
+      dynamic_blog_link: "Dynamic Blog"
       language_options: "View this page in:"
   static_pages:
     home:
