@@ -4,6 +4,7 @@ nav {
 	color: #777;
 	border-radius: 3px;
 	overflow: hidden;
+	margin: 5px;
 }
 
 nav a {

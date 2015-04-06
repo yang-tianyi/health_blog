@@ -7,22 +7,27 @@
 </head>
 <body>
 
-<nav>
-  <ul>
-    <li><%= link_to t('.home_link'), root_path %></li>
-    <li><%= link_to t('.about_link'), about_path %></li>
-  </ul>
-</nav>
+  <nav>
+    <ul>
+      <li><%= link_to t('.home_link'), root_path %></li>
+      <li><%= link_to t('.about_link'), about_path %></li>
+      <li><%= link_to t('.blog_link'), blog_path %></li>
+    </ul>
+  </nav>
 
-<%= yield %>
-
-<footer>
-  <p><%= t('.language_options') %></p>
-  <ul>
-    <li><%= link_to 'English', :locale => :en %></li>
-    <li><%= link_to 'Bro', :locale => :bro %></li>
-  </ul>
-</footer>
+  <div class="wrapper">
+    <div class="container">
+      <%= yield %>
+    </div>
+    <footer>
+      <p><%= t('.language_options') %></p>
+      <ul>
+        <li><%= link_to 'English', :locale => :en %></li>
+        <li><%= link_to 'Bro', :locale => :bro %></li>
+        <li><%= link_to 'Pseudo', :locale => :pseudo %></li>
+      </ul>
+    </footer>
+  </div>
 
 </body>
 </html>

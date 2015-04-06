@@ -1,0 +1,13 @@
+pseudo:
+  layouts:
+    application:
+      # This is a link to the home page
+      home_link: "[Ħǿḿḗ ſǈϖϕǋϰ]"
+      about_link: "[Ȧƀǿŭŧ ςϵϕı靐ǋϖ]"
+      blog_link: "[Ɓŀǿɠ ΐϑϰ鶱ǅϑ]"
+      language_options: "[Ṽīḗẇ ŧħīş ƥȧɠḗ īƞ: ϱ靐ϐ靐ϰ ΐ鶱ıϖ ς]"
+  static_pages:
+    home:
+      home_intro: "[Ŧħḗ ƀḗƞḗƒīŧş ǿƒ ḗȧŧīƞɠ řīɠħŧ ǲϕΐſ ΐ鶱鶱ϵ鶱]"
+      home_intro_2: "[Ŧħīş īş ȧ ƀŀǿɠ ḓḗḓīƈȧŧḗḓ ŧǿ ħḗȧŀŧħẏ ḗȧŧīƞɠ ϐǋΰςΐ ςǅ ϵ]"
+      home_intro_3: "[Ƈŀīƈķ ǿƞ şǿḿḗŧħīƞɠ ǿƞ ŧħḗ ƥȧɠḗ 靐ẛǲϕΰς ςϐ ϕ]"
