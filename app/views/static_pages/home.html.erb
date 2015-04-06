@@ -1,8 +1,8 @@
 <div class="container">
   <div class="floating">
-    <h1>The benefits of eating right</h1>
-    <p>This is a blog dedicated to healthy eating</p>
-    <p>Click on something on the page</p>
+    <h1><%= t('.home_intro') %></h1>
+    <p><%= t('.home_intro_2') %></p>
+    <p><%= t('.home_intro_3') %></p>
   </div>
-  <aside><%= image_tag "v8.png" %></aside>
+  <aside><%= image_tag I18n.locale.to_s == "bro" ? "monster.png" : "v8.png" %></aside>
 </div>

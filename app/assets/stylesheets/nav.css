@@ -1,10 +1,21 @@
-div.nav {
+nav {
 	background-color: #F8F8F8;
 	border: 1px solid #E7E7E7;
 	color: #777;
 	border-radius: 3px;
+	overflow: hidden;
 }
 
-.nav a {
+nav a {
 	color: #777;
+}
+
+ul {
+	display: inline-block;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px 0 5px;
 }

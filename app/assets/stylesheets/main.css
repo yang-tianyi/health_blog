@@ -17,12 +17,6 @@ h1 {
 	color: #666;
 }
 
-li {
-	list-style: none;
-	display: inline-block;
-	margin: 0 5px 0 5px;
-}
-
 aside {
 	float: right;
 }
@@ -34,4 +28,27 @@ aside img {
 a {
 	text-decoration: none;
 	color: royalblue;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+}
+
+footer a {
+	color: #777;
+}
+
+footer a:hover {
+	color: royalblue;
+}
+
+footer p {
+	display: inline-block;
+}
+
+footer ul {
+	display: inline-block;
+	margin-left: 0;
+	padding-left: 0;
 }

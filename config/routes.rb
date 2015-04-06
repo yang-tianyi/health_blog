@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
-  root "static_pages#home"
-  get 'about' => "static_pages#about"
+
+  scope "(:locale)" do
+    root :to => "static_pages#home"
+    get 'about' => "static_pages#about"
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

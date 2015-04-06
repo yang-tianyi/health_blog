@@ -1,0 +1,10 @@
+bro:
+  layouts:
+    application:
+      home_link: "Home"
+      about_link: "About"
+  static_pages:
+    home:
+      home_intro: "Do you even lift, bro?"
+      home_intro_2: "You should seriously lift. And then play some ultimate frisbee"
+      home_intro_3: "Click on something on the page"

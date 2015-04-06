@@ -20,4 +20,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    application:
+      home_link: "Home"
+      about_link: "About"
+      language_options: "View this page in:"
+  static_pages:
+    home:
+      home_intro: "The benefits of eating right"
+      home_intro_2: "This is a blog dedicated to healthy eating"
+      home_intro_3: "Click on something on the page"
