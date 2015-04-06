@@ -33,6 +33,7 @@ footer {
 
 .floating {
 	float: left;
+	width: 500px;
 }
 
 h1 {
