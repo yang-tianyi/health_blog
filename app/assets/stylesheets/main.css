@@ -88,7 +88,10 @@ label {
 }
 
 input {
-	width: 200px
+	width: 200px;
+	border-radius: 3px;
+	border-style: none;
+	border: 1px solid #999;
 }
 
 textarea {
@@ -97,10 +100,10 @@ textarea {
 }
 
 input[type="submit"] {
-	width: 75px;
-	border-style: none;
+	width: 90px;
+	/*border-style: none;
 	background-color: #009900;
-	border-radius: 5px;
+	border-radius: 5px;*/
 }
 
 figure {
