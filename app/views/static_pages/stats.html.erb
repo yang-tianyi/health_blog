@@ -1,18 +1,47 @@
 <div id="header">
   <h1><%= t('.stats_title') %></h1>
   <ul onclick="switchTabs(event)">
-    <li id="selected"><a href="#" id="us">USA</a></li>
-    <li><a href="#" id="uk">UK</a></li>
-    <li><a href="#" id="zh">China</a></li>
-    <li><a href="#" id="jp">Japan</a></li>
-    <li><a href="#" id="br">Brazil</a></li>
+    <li id="selected"><a href="#" id="us"><%= t('.usa') %></a></li>
+    <li><a href="#" id="uk"><%= t('.uk') %></a></li>
+    <li><a href="#" id="zh"><%= t('.china') %></a></li>
+    <li><a href="#" id="jp"><%= t('.japan') %></a></li>
+    <li><a href="#" id="br"><%= t('.brazil') %></a></li>
   </ul>
 </div>
 
 <div id="content">
-  <div data-country="us" class="active">a</div>
-  <div data-country="uk" class="inactive">b</div>
-  <div data-country="zh" class="inactive">c</div>
-  <div data-country="jp" class="inactive">d</div>
-  <div data-country="br" class="inactive">e</div>
+  <div data-country="us" class="active">
+    <h3><%= t('.us_fact_1') %></h3>
+    <p><%= t('.us_fact_2') %></p>
+    <p><%= t('.us_fact_3') %></p>
+    <p><%= t('.us_fact_4') %></p>
+  </div>
+  <div data-country="uk" class="inactive">
+    <h3><%= t('.uk_fact_1') %></h3>
+    <p><%= t('.uk_fact_2') %></p>
+    <p><%= t('.uk_fact_3') %></p>
+    <p><%= t('.uk_fact_4') %></p>
+    <p><%= t('.uk_fact_5') %></p>
+    <p><%= t('.uk_fact_6') %></p>
+  </div>
+  <div data-country="zh" class="inactive">
+    <h3><%= t('.china_fact_1') %></h3>
+    <p><%= t('.china_fact_2') %></p>
+    <p><%= t('.china_fact_3') %></p>
+    <p><%= t('.china_fact_4') %></p>
+    <p><%= t('.china_fact_5') %></p>
+    <p><%= t('.china_fact_6') %></p>
+  </div>
+  <div data-country="jp" class="inactive">
+    <h3><%= t('.japan_fact_1') %></h3>
+    <p><%= t('.japan_fact_2') %></p>
+    <p><%= t('.japan_fact_3') %></p>
+    <p><%= t('.japan_fact_4') %></p>
+  </div>
+  <div data-country="br" class="inactive">
+    <h3><%= t('.brazil_fact_1') %></h3>
+    <p><%= t('.brazil_fact_2') %></p>
+    <p><%= t('.brazil_fact_3') %></p>
+    <p><%= t('.brazil_fact_4') %></p>
+  </div>
 </div>

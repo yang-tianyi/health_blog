@@ -14,7 +14,8 @@
 	border-bottom-width: 0;
 	margin: 0 0.5em 0 0;
 	color: #777;
-	border-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
 }
 
 #header li a {
@@ -27,6 +28,10 @@
 	border: 1px solid #E7E7E7;
 	clear: both;
 	margin-top: 16px;
+}
+
+#content div {
+	margin: 1em;
 }
 
 h1 {

@@ -83,7 +83,6 @@ a {
 }
 
 label {
-	width: 60px;
 	display: inline-block;
 }
 
@@ -97,13 +96,6 @@ input {
 textarea {
 	min-width: 350px;
 	min-height: 200px;
-}
-
-input[type="submit"] {
-	width: 90px;
-	/*border-style: none;
-	background-color: #009900;
-	border-radius: 5px;*/
 }
 
 figure {
@@ -132,3 +124,8 @@ footer ul {
 	margin-left: 0;
 	padding-left: 0;
 }
+
+td {
+	vertical-align: top;
+}
+

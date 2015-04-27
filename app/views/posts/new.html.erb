@@ -1,4 +1,4 @@
-<h1>New post</h1>
+<h1><%= t( 'posts.new.page_title' ) %></h1>
 <%= form_for @post do |f| %>
  
   <% if @post.errors.any? %>
@@ -15,30 +15,32 @@
     </div>
   <% end %>
 
-  <p>
-    <%= f.label :title %>
-    <%= f.text_field :title %>
-  </p>
+  <table>
+    <tr>
+      <td><%= f.label t( 'posts.new.title' ) %></td>
+      <td><%= f.text_field :title %></td>
+    </tr>
 
-  <p>
-    <%= f.label :img_url %>
-    <%= f.text_field :img_url%>
-  </p>
+    <tr>
+      <td><%= f.label t( 'posts.new.img_url' ) %></td>
+      <td><%= f.text_field :img_url%></td>
+    </tr>
 
-  <p>
-    <%= f.label :author %>
-    <%= f.text_field :author %>
-  </p>
+    <tr>
+      <td><%= f.label t( 'posts.new.author' ) %></td>
+      <td><%= f.text_field :author %></td>
+    </tr>
 
-  <p>
-    <%= f.label :body %>
-    <%= f.text_area :body %>
-  </p>
+    <tr>
+      <td><%= f.label t( 'posts.new.body' ) %></td>
+      <td><%= f.text_area :body %></td>
+    </tr>
+  </table>
  
   <p>
-    <%= f.submit 'Create Post' %>
+    <%= f.submit t( 'posts.new.create_btn' ) %>
   </p>
  
 <% end %>
 
-<%= link_to 'Back', posts_path %>
+<%= link_to t('.back_btn'), posts_path %>
