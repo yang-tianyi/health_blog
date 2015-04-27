@@ -3,6 +3,7 @@
 <head>
   <title>Blog</title>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -13,6 +14,7 @@
       <li><%= link_to t('.about_link'), about_path %></li>
       <li><%= link_to t('.static_blog_link'), static_blog_path %></li>
       <li><%= link_to t('.dynamic_blog_link'), posts_path %></li>
+      <li><%= link_to t('.stats'), stats_path %></li>
     </ul>
   </nav>
 
