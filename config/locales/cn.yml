@@ -1,23 +1,23 @@
-en:
+cn:
   layouts:
     application:
-      home_link: "Home"
-      about_link: "About"
-      static_blog_link: "Static Blog"
-      dynamic_blog_link: "Dynamic Blog"
-      language_options: "View this page in:"
+      home_link: "主页"
+      about_link: "关于我们"
+      static_blog_link: "静态博客"
+      dynamic_blog_link: "动态博客"
+      language_options: "用下列语言查看本页面:"
   static_pages:
     home:
-      home_intro: "The benefits of eating right"
-      home_intro_2: "This is a blog dedicated to healthy eating"
-      home_intro_3: "Click on something on the page"
+      home_intro: "吃得正确的好处"
+      home_intro_2: "本博客致力于传播健康吃法"
+      home_intro_3: "在页面上随便点点"
     about: 
-      about_page_header: "This is the about page"
-      about_page_desc: "It tells what the app does, who the people behind it are, why it's awesome, etc."
-      about_contact: "Contact Us"
-      about_gallery: "Gallery"
-      about_sign_up: "Sign Up"
-      about_page_para: "Now for some details typical of an 'About Us' page"
+      about_page_header: "这是关于页面"
+      about_page_desc: "它告诉什么应用程序呢，谁是背后的人，为什么它的真棒，等等。"
+      about_contact: "联系我们"
+      about_gallery: "相册"
+      about_sign_up: "注册"
+      about_page_para: "现在的一些细节典型的“关于我们”页面"
     blog: 
       blog_title: "The Hypocritical Diet of the Hipster"
       blog_sub_title: "A battle of bacon vs. Brussels sprouts."
@@ -33,12 +33,4 @@ en:
       blog_para_6: "Plus, hipsters are physically active, often eschewing a car for a bike, Bogden says. “People don’t realize that they walk and bike everywhere,” she says. “There’s a greater calorie deficit when you’re that active, which is why they can go out to eat more often and not gain weight.”"
   posts:
     index:
-      new_post_link: "New post"
-    new:
-      title: "Title"
-      page_title: "New Post"
-      img_url: "Img url"
-      author: "Author"
-      body: "Body"
-      create_post: "Create Post"
-      back: "Back"
+      new_post_link: "发表新博客"

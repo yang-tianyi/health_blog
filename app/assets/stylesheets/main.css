@@ -83,7 +83,6 @@ a {
 }
 
 label {
-	width: 60px;
 	display: inline-block;
 }
 
@@ -100,7 +99,6 @@ textarea {
 }
 
 input[type="submit"] {
-	width: 90px;
 	/*border-style: none;
 	background-color: #009900;
 	border-radius: 5px;*/
@@ -132,3 +130,14 @@ footer ul {
 	margin-left: 0;
 	padding-left: 0;
 }
+
+td {
+	vertical-align: top;
+}
+/*table {
+	border: 1px solid black;
+}
+
+td {
+	border:1px solid black;
+}/
